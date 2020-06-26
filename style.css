@@ -1,14 +1,19 @@
+.calcbody {
+    background-image: url("calcpattern.jpg")
+}
+
 .main {
     border: 2px dashed blue;
     width: 245px;
-    margin: 0 auto;
+    margin: 120px auto;
 }
 
 .screen,
 .equation {
     width: 97%;
     height: 30px;
-    background-color: darkturquoise;
+    background-color: greenyellow;
+    font-size: 40px;
 }
 
 .clearBtn {
@@ -34,6 +39,7 @@
     font-size: 17px;
     margin: 4px 2px;
     border-radius: 50%;
+    /* font-size: 15px; */
 }
 
 .lastBtn {
@@ -45,6 +51,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 12px 12px 0px 12px;
     border-radius: 50%;
+    /* font-size: 15px; */
 }
