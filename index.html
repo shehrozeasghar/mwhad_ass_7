@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div> <input id="result" class="screen" type="text" name="" id=""> </div>
+        <!-- <div> <input class="equation" type="text" name="" id=""> </div> -->
+
+        <div>
+            <button class="clearBtn" onclick="clearScreen()">C</button>
+        </div>
+        <div>
+            <button class="btn" onclick="ScreenIn('7')">7</button>
+            <button class="btn" onclick="ScreenIn('8')">8</button>
+            <button class="btn" onclick="ScreenIn('9')">9</button>
+            <button class="btn" onclick="ScreenIn('-')">-</button>
+        </div>
+        <div>
+            <button class="btn" onclick="ScreenIn('4')">4</button>
+            <button class="btn" onclick="ScreenIn('5')">5</button>
+            <button class="btn" onclick="ScreenIn('6')">6</button>
+            <button class="btn" onclick="ScreenIn('*')">X</button>
+        </div>
+        <div>
+            <button class="btn" onclick="ScreenIn('1')">1</button>
+            <button class="btn" onclick="ScreenIn('2')">2</button>
+            <button class="btn" onclick="ScreenIn('3')">3</button>
+            <button class="btn" onclick="ScreenIn('/')">/</button>
+        </div>
+        <div>
+            <button class="lastBtn" onclick="ScreenIn('0')">0</button>
+            <button class="lastBtn" onclick="Resultant()">=</button>
+            <button class="lastBtn" onclick="ScreenIn('+')">+</button>
+
+        </div>
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
